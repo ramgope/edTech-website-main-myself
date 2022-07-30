@@ -7,13 +7,14 @@
     <title>EdTech Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- ========== Header section start ========== -->
     <header>
         <!-- ========== Navbar section start ========== -->
-        <nav class="navbar navbar-expand-lg mb-4">
+        <nav class="navbar navbar-expand-lg mb-5">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="#">Programming Hero</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,7 +44,7 @@
                         </li>
                     </ul>
                     <form role="search">
-                        <button class="btn btn-outline-success text-primary border border-primary px-4 fw-semibold"
+                        <button class="btn btn-outline-success text-info border border-info px-4 fw-semibold"
                             type="submit">Register</button>
                     </form>
                 </div>
@@ -52,7 +53,7 @@
         <!-- ========== Navbar section end ========== -->
 
         <!-- ========== Cover/slider section start ========== -->
-        <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="carousel slide container mb-5" data-bs-ride="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100 rounded-2" src="images/cover/cover-1.png" alt="cover-1.png">
@@ -63,7 +64,7 @@
                                 readable <br> content
                                 of a
                                 page when looking at its layout.</p>
-                            <button class="btn bg-primary text-white px-4 fw-semibold mb-lg-5">Get
+                            <button class="btn bg-info text-white px-4 fw-semibold mb-lg-5" type="submit">Get
                                 Started</button>
                         </div>
                     </div>
@@ -77,7 +78,7 @@
                                 readable <br> content
                                 of a
                                 page when looking at its layout.</p>
-                            <button class="btn bg-primary text-white px-4 fw-semibold mb-lg-5">Get
+                            <button class="btn bg-info text-white px-4 fw-semibold mb-lg-5" type="submit">Get
                                 Started</button>
                         </div>
                     </div>
@@ -91,7 +92,7 @@
                                 readable <br> content
                                 of a
                                 page when looking at its layout.</p>
-                            <button class="btn bg-primary text-white px-4 fw-semibold mb-lg-5">Get
+                            <button class="btn bg-info text-white px-4 fw-semibold mb-lg-5" type="submit">Get
                                 Started</button>
                         </div>
                     </div>
@@ -111,6 +112,135 @@
         <!-- ========== Cover/slider section end ========== -->
     </header>
     <!-- ========== Header section end ========== -->
+
+    <!-- ========== Main section start ========== -->
+
+    <!-- ========== popular courses section start ========== -->
+    <section class="container text-center my-5">
+        <h2>Discover Our Popular <br> Courses</h2>
+        <p class="fs-6 fw-lighter text-muted pb-3">It is a long established fact that a reader will be distracted by the
+            readable
+            <br>
+            content of a page when looking at its layout.
+        </p>
+    </section>
+    <section class=" container">
+        <article class="row row-cols-1 row-cols-md-1 row-cols-lg-2 justify-content-between">
+            <div class="card mb-3 card-style" style="max-width: 540px;">
+                <div class="row g-0 shadow-sm">
+                    <div class="col-md-4">
+                        <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="course-1.png">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                            <p class="card-text fs-6 fw-lighter text-muted">Some quick example text to build on the
+                                card
+                                title
+                                and make
+                                up the bulk of the card.</p>
+                            <h6>Price: $20</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 card-style" style="max-width: 540px;">
+                <div class="row g-0 shadow-sm">
+                    <div class="col-md-4">
+                        <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="course-2.png">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript Basic to advanced</h5>
+                            <p class="card-text fs-6 fw-lighter text-muted">Some quick example text to build on the
+                                card
+                                title
+                                and make
+                                up the bulk of the card.</p>
+                            <h6>Price: $20</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 card-style" style="max-width: 540px;">
+                <div class="row g-0 shadow-sm">
+                    <div class="col-md-4">
+                        <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="course-3.png">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Fullstack Web Development</h5>
+                            <p class="card-text fs-6 fw-lighter text-muted">Some quick example text to build on the
+                                card
+                                title
+                                and make
+                                up the bulk of the card.</p>
+                            <h6>Price: $20</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 card-style" style="max-width: 540px;">
+                <div class="row g-0 shadow-sm">
+                    <div class="col-md-4">
+                        <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="course-4.png">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text fs-6 fw-lighter text-muted">Some quick example text to build on the
+                                card
+                                title
+                                and make
+                                up the bulk of the card.</p>
+                            <h6>Price: $20</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 card-style" style="max-width: 540px;">
+                <div class="row g-0 shadow-sm">
+                    <div class="col-md-4">
+                        <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="course-5.png">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Photography Basic Rules</h5>
+                            <p class="card-text fs-6 fw-lighter text-muted">Some quick example text to build on the
+                                card
+                                title
+                                and make
+                                up the bulk of the card.</p>
+                            <h6>Price: $20</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 card-style" style="max-width: 540px;">
+                <div class="row g-0 shadow-sm">
+                    <div class="col-md-4">
+                        <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="course-6.png">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Motion Graphics</h5>
+                            <p class="card-text fs-6 fw-lighter text-muted">Some quick example text to build on the
+                                card
+                                title
+                                and make
+                                up the bulk of the card.</p>
+                            <h6>Price: $20</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <div class="container text-center my-5">
+        <button class="btn bg-info text-white px-4 fw-semibold mb-lg-5" type="submit">See More Courses</button>
+    </div>
+    <!-- ========== popular courses section end ========== -->
+    <!-- ========== Main section end ========== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

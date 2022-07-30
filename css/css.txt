@@ -1,0 +1,4 @@
+.card-style{
+border: 1px solid #E8E8E8;
+border-radius: 5px;
+}
