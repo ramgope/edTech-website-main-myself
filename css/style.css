@@ -1,13 +1,263 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.font-sty h2 {
+/* .font-sty h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #1D1D1D;
     margin: auto;
 } */
 
+/* =====================COMMON CSS===================== */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* =====================COMMON CSS===================== */
+
+/* ========== explore institute section start ========== */
 .card-style {
     border: none;
     border-radius: 5px;
 }
+
+.exp-inst {
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.exp-inst .img-sec {
+    width: 40%;
+    height: 100%;
+}
+
+.exp-inst .img-sec img {
+    width: 100%;
+}
+
+.exp-inst .text-sec {
+    width: 60%;
+    background-color: #F4FAFD;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.exp-inst .text-sec h2 {
+    font-size: 36px;
+}
+
+
+.text-sec .main-text {
+    width: 80%;
+}
+
+.text-sec .details-sec {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.text-sec .details-sec h2 {
+    font-size: 30px;
+}
+
+.text-sec p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-sec button {
+    width: 120px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.text-sec button a {
+    color: white;
+}
+
+/* ========== explore institute section end ========== */
+
+/* ========== Ready to join section start ========== */
+
+.register-sec {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.register-sec .register-text {
+    width: 60%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.register-sec .register-btn {
+    width: 40%;
+    height: 100%;
+}
+
+.register-btn {
+    padding-top: 80px;
+    display: block;
+}
+
+.register-text p {
+    color: #F4F4F4;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.register-btn a {
+    color: #289BDE;
+}
+
+/* .register-sec .register-btn {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(221, 255, 212);
+} */
+
+/* ========== Ready to join section end ========== */
+
+.text-clr p {
+    color: #777777;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* ========== Successful Student section start ========== */
+.student-sec {
+    width: 45%;
+}
+
+.student-sec h2 {
+    color: #3b3b3b;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.student-sec p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.students .register-btn a {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.students .register-btn {
+    padding-bottom: 20px;
+}
+
+/* ========== Successful Student section end ========== */
+
+/* ========== Students feedback section start ========== */
+.students-feed h2 {
+    color: #3b3b3b;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.students-feed p {
+    color: #777777;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.common-text {
+    color: #777777;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.icons {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icons .quote-lt {
+    margin-left: 10px;
+}
+
+.icons .star-rt {
+    margin-right: 10px;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.fa-star-half-stroke {
+    color: gold;
+}
+
+.end-part img {
+    padding-right: 20px;
+}
+
+.end-part .img-text p {
+    color: #777777;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.end-part .img-text h6 {
+    color: #4A4A4A;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ========== Students feedback section end ========== */
+
+/* ========== FAQ section start start ========== */
+.faq-main {
+    margin: 120px 0 150px 0;
+}
+
+.faq-sec {
+    text-align: center;
+}
+
+.faq-sec h2 {
+    color: #3b3b3b;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.faq-sec p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* ========== FAQ section start end ========== */
