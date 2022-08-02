@@ -289,12 +289,36 @@
                     when looking at its layout.</p>
             </div>
             <div class="register-btn">
-                <button class="btn bg-white text-info px-4 fw-semibold mb-lg-5" type="submit"><a
-                        href="https://github.com/programminghero1">Register Now</a>
+                <button class="btn bg-white text-info px-4 fw-semibold mb-lg-5" data-bs-toggle="modal"
+                    data-bs-target="#reg-modal" type="submit">Register Now
                 </button>
             </div>
         </div>
     </section>
+    <!-- ========== modal section start ========== -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the latest updates</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>What is a Full Stack Engineer? <br> Full stack technology refers to the entire depth of a
+                        computer system application, and full stack developers straddle two separate web development
+                        domains: the front end and the back end. The front end includes everything that a client, or
+                        site viewer, can see and interact with.
+                    </p>
+                    <label for="modal-email" class="form-label">Your E-mail Addeess:</label>
+                    <input type="text" class="form-control" id="modal-email" placeholder="ramprosad768@gmail.com">
+                </div>
+                <div class="modal-footer"></div>
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+    <!-- ========== modal section end ========== -->
+
     <!-- ========== Ready to join section end ========== -->
 
     <!-- ========== Successful Student section start ========== -->
@@ -323,7 +347,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col sd-nope">
                 <div class="card h-100">
                     <img src="images/student/student-3.png" class="card-img-top" alt="student-3.png">
                     <div class="card-body">
@@ -357,7 +381,7 @@
                 when looking at its layout.</p>
         </div>
         <div class="row mb-5">
-            <div class="col-sm-6">
+            <div class="col-sm-6 mar-btm">
                 <div class="card">
                     <div class="icons container d-flex justify-content-between">
                         <p class="text-muted fs-2 quote-lt">
@@ -420,6 +444,7 @@
                 </div>
             </div>
         </div>
+        <a class="btn btn-info only-for-sm d-lg-none" href="index.html" role="submit">View All</a>
     </div>
     <!-- ========== Students feedback section end ========== -->
 

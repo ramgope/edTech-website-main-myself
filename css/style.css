@@ -82,6 +82,11 @@ a {
     color: white;
 }
 
+@media screen and (max-width: 576px) {
+
+    .regist {}
+}
+
 /* ========== explore institute section end ========== */
 
 /* ========== Ready to join section start ========== */
@@ -119,11 +124,26 @@ a {
     color: #289BDE;
 }
 
-/* .register-sec .register-btn {
-    width: 40%;
-    height: 100%;
-    background-color: rgb(221, 255, 212);
-} */
+@media screen and (max-width: 576px) {
+
+    .register-sec {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register-sec .register-text {
+        padding-top: 10px;
+    }
+
+    .register-btn {
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+}
 
 /* ========== Ready to join section end ========== */
 
@@ -162,6 +182,43 @@ a {
 
 .students .register-btn {
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .students .student-sec {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: 100%;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .students .student-sec h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .students .text-clr h5,
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .students .text-clr .sd-nope {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .container .only-for-sm {
+        margin-left: 150px;
+    }
 }
 
 /* ========== Successful Student section end ========== */
@@ -234,6 +291,13 @@ a {
     font-size: 16px;
 }
 
+@media screen and (max-width: 576px) {
+
+    .mar-btm {
+        margin: 20px 0;
+    }
+}
+
 /* ========== Students feedback section end ========== */
 
 /* ========== FAQ section start start ========== */
@@ -261,6 +325,18 @@ a {
     font-size: 12px;
 }
 
+@media screen and (max-width: 576px) {
+
+    .faq-main {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .faq-sec h2 {
+        font-size: 28px;
+    }
+}
+
 /* ========== FAQ section start end ========== */
 
 /* ========== Trusted companies section start ========== */
@@ -278,7 +354,16 @@ a {
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 576px) {
+
+    .company-sec {
+        display: none;
+    }
+}
+
 /* ========== Trusted companies section end ========== */
+
+/* ========== Footer section start ========== */
 footer {
     width: 100%;
     height: 500px;
@@ -312,4 +397,34 @@ footer .company-add {
     padding: 0 5px;
 }
 
-/* ========== Trusted companies section end ========== */
+/* ========== Footer section end ========== */
+
+/* ========== Footer section start ========== */
+@media screen and (max-width: 576px) {
+
+    footer .company-add {
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+    }
+
+    .main-add h2 {
+        font-size: 16px;
+    }
+
+    .main-add p {
+        font-size: 8px;
+
+        line-height: 1.1em;
+    }
+
+    .footer-icon a {
+        padding-bottom: 20px;
+    }
+
+    .footer-icon i {
+        text-size-adjust: 20px;
+    }
+}
+
+/* ========== Footer section end ========== */
