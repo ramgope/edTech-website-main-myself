@@ -238,7 +238,8 @@ a {
 
 /* ========== FAQ section start start ========== */
 .faq-main {
-    margin: 120px 0 150px 0;
+    margin: 120px auto 120px;
+    width: 700px;
 }
 
 .faq-sec {
@@ -261,3 +262,54 @@ a {
 }
 
 /* ========== FAQ section start end ========== */
+
+/* ========== Trusted companies section start ========== */
+.company-sec {
+    margin-bottom: 120px;
+}
+
+.company-sec h2 {
+    color: #3b3b3b;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ========== Trusted companies section end ========== */
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #1E1E1E;
+}
+
+footer .company-add {
+    width: 100%;
+    height: 300px;
+    background-color: #161616;
+}
+
+.company-add {
+    padding-top: 50px;
+}
+
+.main-add h2 {
+    color: #FFFFFF;
+}
+
+.main-add p {
+    color: #E8E8E8;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.footer-icon a {
+    padding: 0 5px;
+}
+
+/* ========== Trusted companies section end ========== */
